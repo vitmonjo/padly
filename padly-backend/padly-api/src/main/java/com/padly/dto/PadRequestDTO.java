@@ -4,7 +4,6 @@ import jakarta.validation.constraints.NotBlank;
 
 public class PadRequestDTO {
 
-    @NotBlank(message = "O conteúdo não pode estar em branco.")
     private String content;
 
     public PadRequestDTO() {}
